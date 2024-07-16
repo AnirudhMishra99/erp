@@ -1,4 +1,7 @@
 .box{
     height: 150px;
     background-color: blueviolet;
+    margin: 5px;
+    padding: 2px;
+    display: inline;
 }
