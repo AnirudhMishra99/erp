@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/css/mainstyle.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></Script>
+    <title> user-Dashboard</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row " style="height: 150px;">
+            <div class="col-12 col-lg-2  col-md-2 text-white bg-dark">
+                <div class="header">Logo</div>
+            </div>
+            <div class="col-12 col-lg-7 col-md-10 text-white bg-primary">
+                <div class="header">Banner</div>
+
+            </div>
+            <div class="col-12 col-lg-3  text-white bg-dark">
+                <div class="header">Social link</div>
+            </div>
+        </div>
+        <div class="row" style="height: auto;">
+            <div class="col-12 col-lg-2 bg-primary">
+            </div>
+            <div class="col-12 col-lg-10 ">
+            </div>
+        </div>
+        <!----<div class="row">
+            <div class="col-12 bg-primary"> -->
+        <br>
+        <table class="table table-bordered">
+            <tr>
+                <th class="bg-warning p-3">S no.</th>
+                <th class="bg-warning p-3">Name</th>
+                <th class="bg-warning p-3">Role</th>
+                <th class="bg-warning p-3">Action</th>
+            </tr>
+            <tr class="table-primary">
+                <td>1</td>
+                <td bg>Anirudh</td>
+                <td>Student</td>
+                <td><button class="bg-primary" style="box-shadow: 0px 0px 20px red; border-radius: 10px;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Modify</button> <button
+                        class="bg-danger" style="box-shadow: 0px 0px 20px orange; border-radius: 10px;">Delete</button></td>
+            </tr>
+            <tr class="table-danger">
+                <td>2</td>
+                <td>Arun</td>
+                <td>Teacher</td>
+                <td><button class="bg-primary" style="box-shadow: 0px 0px 20px red; border-radius: 10px;" class="btn btn-primary"data-bs-toggle="modal"data-bs-target="#myModal">Modify</button> <button
+                        class="bg-danger" style="box-shadow: 0px 0px 20px orange ; border-radius: 10px;">Delete</button></td>
+            </tr>
+
+        </table>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modify Your Detail </h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body" style="background-color: orange; font-size: 15px;">
+                        <fieldset>
+                         S_no.  <input type="number" placeholder="Enter a S_no.">
+                         Name   <input type="text" placeholder="Enter a Name">
+                         <br>
+                         <br>
+                         Role   <input type="text" placeholder="Enter a Role">
+
+                        </fieldset>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Close</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+</body>
+
+</html>
