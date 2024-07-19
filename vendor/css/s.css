@@ -2,3 +2,21 @@
     height: 70px;
     width: 70px;
 }
+
+
+.product-dis{
+    font-size:0.8rem;
+    color:#08a500;
+}
+.product-mrp{
+    text-decoration: line-through;
+}
+.card-body{
+    height: 400px;
+    background-color:lavenderblush;
+   
+}
+.card{
+    margin-top: 20px;
+}
+
