@@ -19,4 +19,7 @@
 .card{
     margin-top: 20px;
 }
+.offcanvas-body-card{
+    background-color: red;
+}
 
